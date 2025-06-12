@@ -45,7 +45,7 @@ COPY . .
 WORKDIR /workspace/src
 RUN pip3 install --no-cache-dir torch==2.0.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 && \
     pip3 install --no-cache-dir xformers==0.0.22 runpod && \
-    pip3 install -r requirements.txt && \
+    pip3 install -r requirements.txt
     # pip3 install --no-cache-dir huggingface-hub
 
 # Download the checkpoints
