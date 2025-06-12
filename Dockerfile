@@ -38,7 +38,7 @@ RUN apt update && \
 
 # Set the working directory
 WORKDIR /workspace
-
+COPY . .
 # RUN git clone https://github.com/ashleykleynhans/runpod-worker-instantid.git
 
 # Install the worker dependencies
