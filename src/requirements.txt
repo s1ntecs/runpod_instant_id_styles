@@ -6,8 +6,7 @@ einops
 onnxruntime-gpu
 omegaconf
 peft==0.10.0
-# huggingface-hub==0.25.2
-# huggingface-hub==0.32.3
+huggingface-hub==0.25.2# huggingface-hub==0.32.3
 # huggingface_hub[hf-transfer]
 opencv-python
 insightface==0.7.3
