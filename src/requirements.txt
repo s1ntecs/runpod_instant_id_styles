@@ -1,12 +1,11 @@
 diffusers==0.25.1
-# transformers==4.50.0
-transformers==4.37.2
+transformers==4.50.0
 accelerate
 safetensors
 einops
 onnxruntime-gpu
 omegaconf
-peft==0.10.0
-huggingface-hub==0.25.2
+peft
+huggingface-hub==0.20.2
 opencv-python
 insightface==0.7.3
