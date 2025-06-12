@@ -39,10 +39,10 @@ RUN apt update && \
 # Set the working directory
 WORKDIR /workspace
 
-RUN git clone https://github.com/ashleykleynhans/runpod-worker-instantid.git
+# RUN git clone https://github.com/ashleykleynhans/runpod-worker-instantid.git
 
 # Install the worker dependencies
-WORKDIR /workspace/runpod-worker-instantid/src
+WORKDIR /workspace/src
 RUN pip3 install --no-cache-dir torch==2.0.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 && \
     pip3 install --no-cache-dir xformers==0.0.22 runpod && \
     pip3 install -r requirements.txt && \
